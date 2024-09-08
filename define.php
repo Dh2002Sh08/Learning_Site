@@ -1,0 +1,69 @@
+<?php
+header("refresh:10; url=login.php")
+?> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-style:sans-serif;
+            color:black;
+            font-size:30px;
+        }
+        h4{
+            font-size:20px;
+        }
+        button a:hover{
+            text-decoration:none;
+            color:black;
+            background-color:rgb(238, 171, 171);
+        }
+        button a{
+            background-color:aqua;
+        }
+        button{
+            border-radius:10px;
+            padding:8px 9px;
+            background-color: burlywood;
+        }
+       
+    </style>
+</head>
+<body style="background-color:rgb(234, 246, 250);">
+   <h4>What is HTML?</h4><ul>
+<li>HTML stands for Hyper Text Markup Language</li>
+<li>HTML is the standard markup language for creating Web pages
+<li>HTML describes the structure of a Web page<li>
+<li>HTML consists of a series of elements</li>
+<li>HTML elements tell the browser how to display the content</li>
+<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li></ul>
+    <h4 align="center">Introduction</h4>    
+  <img src="html.png" width="300" height="300" onMouseOver="a()" onMouseOut="b()" id="p1" align="left">
+  <img src="KI.png" width="300" height="300" onMouseOver="d()" onMouseOut="c()" id="p2" align="right">
+ <script language="javascript">
+       function a()
+       {
+    document.getElementById("p1").src="html2.png";  
+       }
+       function b()
+       {
+           document.getElementById("p1").src="html.png";
+       } 
+      function d()
+      {
+          document.getElementById("p2").src="oi.png";
+      }
+      function c()
+      {
+          document.getElementById("p2").src="KI.png";
+      }
+        </script>
+        
+    <img src="lo.jpg" width="400" height="400" style="margin:20px;"> 
+    <h3 style="margin:0px; text-align:left;">Inline Attributes(above)</h3>
+    <button style="margin-left:555px; margin-bottom:15px;"><a href="ALL IN ONE HTML.html">*Go Back*</a></button>
+</body>
+</html>
