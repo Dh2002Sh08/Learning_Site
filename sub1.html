@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN FORM</title>
+    <style>
+        #register{
+            font-size:25px;
+  text-align:left; 
+  color:rgb(12, 1, 1);
+  margin-left:350px;
+  margin-right:350px;
+  margin-bottom:150px;
+  margin-top:50px;
+  background-color: rgb(240, 161, 161);
+  cursor:pointer;
+  border-radius:25px;
+  border:5px solid black;
+        }
+        #b1{
+            font-size:20px; 
+            padding:9px 5px; 
+            border-radius: 10px;
+            background-color: indianred;
+            color:white;
+        }
+        #b1:hover{
+            color:yellow;
+        }
+        #b2{
+            font-size:20px; 
+            padding:9px 5px; 
+            border-radius: 10px;
+            background-color: indianred;
+            color:white;
+        }
+        #b2:hover{
+            color:red;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(245, 206, 206);">
+<!-- <body style="background-image:url('bluak.jpg');"> -->
+<form id="register" method="post" action="sub.php" target="_blank" enctype="multipart/form-data">
+    <fieldset style="border:5px solid rgb(32, 46, 32); border-radius: 25px;;" >
+        <legend style="text-align:center; font-size: 30px;">Want To Enroll With Us</legend> 
+        <div>
+     Name:
+    <input  style="width:100%; padding:9px 5px; border-radius: 10px; " type="text" value="" id="fname" name="fname" placeholder="First name" required> <br> <br>
+    D.O.B:
+    <input  style="width:100%;  padding:9px 5px; border-radius: 10px;  " type="date" name="date" required> <br><br>              
+    E-mail:
+    <input  style="width:100%;  padding:9px 5px; border-radius: 10px;  " type="email" name="email" id="name" placeholder="Enter email" required><br>
+    <br>
+    Gender:
+    <input   type="radio" value="MALE" name="gender" id="male" required>Male
+    <input   type="radio" value="FEMALE" name="gender" id="female" required>Female
+    <input   type="radio" value="OTHER" name="gender" id="other" required>Other<br>
+    <br>
+    <!-- Password:
+    <input  style="width:100%;  padding:9px 5px; " type="password" value="" name="pass"  placeholder="*******" required>  <br><br>     -->
+    Password:
+    <input style="width:100%;  padding:9px 5px; border-radius: 10px;  "  type="password" value="" name="password"  placeholder="******" required><br>
+    <br>
+    <!-- Country:
+    <select name="s1" required>
+        <option  name="s1" required>--SELECT--</option>
+        <option  name="s1" required>Antartica</option>
+        <option  name="s1" required>America</option>
+        <option  name="s1" required>Australia</option>
+        <option  name="s1" required>Indonesia</option>
+        <option name="s1"  required>Newzealand</option>
+        <option  name="s1" required>South Africa</option>
+    </select><b  name="s1" requiredr> -->
+    
+    <button  value="Submit" id="b1" name="submit" >SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button   value="Reset" id="b2"  name="reset" >RESET</button>
+    <div>
+    </fieldset> 
+</form>
+</body>
+</html>

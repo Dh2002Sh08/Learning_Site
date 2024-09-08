@@ -1,0 +1,98 @@
+<html>
+           <head>
+        <title>Website for Everything </title>
+        </head>
+        <body bgcolor="skyblue">
+            <div class="main">
+                <div class="register">
+                    <h2>Register here</h2>
+                    <form id="register" method="post" style="color:rgb(255, 0, 212)">
+                        First Name:
+                        <input type="text" value="" id="fname" name="fname" placeholder="First name"><BR>
+                        Last Name:
+                        <input type="text" value="" name="lname" placeholder="Last name"><br>
+                        D.O.B:
+                        <input type="date" name="dob" placeholder="age"><br>
+                        E-mail:
+                        <input type="email" name="email" id="name" placeholder="enter email"><br>
+                        Gender:
+                        <input type="radio" value="" name="gender" id="male">Male
+                        <input type="radio" value="" name="gender" id="female">Female
+                        <input type="radio" value="" name="gender" id="other">Other<br>
+                        Password:
+                        <input type="password" value="" name="password"><br>
+                        Confirm Password:
+                        <input type="password" value="" name="password"><br>
+                        <button>Reset</button> <button>Register</button>   
+                    </form>
+                </div>
+            </div>        
+            <br>
+            <br>
+            <table border="3" width="100%" ALIGN="CENTER" 
+            style="border:3px dotted rgba(0, 89, 255, 0.904); border-spacing:25px;">
+                    <tr >
+                <th> Day/ Period</th>
+                <th>1<sup>st</sup> </th>
+                <th> 2nd</th>
+                <th>3rd</th>
+                <th>12:00-12:30</th>
+                <th>4th</th>
+                <th>5th</th>
+                <th>6th</th>
+            </tr>
+            <tr >
+                <td><button doubleclick="main.location='fname'" title="hello">Monday</button></td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td rowspan="6" align=center>L<br>U<br>N<br>C<br>H<br></td>
+                <td>Sports</td>
+                <td>bio</td>
+                <td>chemistry</td>
+            </tr>
+            <tr >
+                <td>tuesday</td>
+                <td colspan="3" align="center">LAB</td>
+                <td>Physics</td>
+                <td>chemistry</td>
+                <td align="center">bio</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>sports</td>
+                    <td>Physics</td>
+                    <td>Chemistry</td>
+                    <td colspan="3" ALIGN="CENTER"> LAB</td>
+                </tr>
+                <tr >
+                    <td>Thursday</td>
+                    <td>English</td>
+                    <td>Physics</td>
+                    <td align="center">Bio</td>
+                    <td COLSPAN="3" align="center">Sports</td>  
+                </tr>
+                <tr >
+                    <td><button title="hello" target="form">Friday</button></td>
+                    <td>Maths</td>
+                    <td>Physics</td>
+                    <td align="center">chemistry</td>
+                    <td align="center">English</td>
+                    <td colspan="2" ALIGN="CENTER">LAB</td>  
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td colspan="3" align="center"><a href="www.google.com" target="_blank"> LAB</a></td>
+                    <td colspan="3" align="center">Sports</td>
+                     </tr>
+                     <tr>
+                         <td></td>
+                         <td colspan="8" align="center" class="tab"><b>SUNDAY</b></td>
+                     </tr>
+        </table>
+        <iframe src="demo_iframe.htm" frameborder="250px" width="100%" height="80%"
+         title="Iframe example" name="iframe_a"
+         style="color:rgb(20, 228, 255)">Button</iframe>
+         <p><a href="www.w3schools.com" target="iframe_a"></a> hello</p>
+        </body>
+</html>
